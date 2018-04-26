@@ -5,3 +5,6 @@ lazy val phoneCompany = (project in file(".")).settings(
     scalaVersion := "2.12.3"
   )
 )
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test
+libraryDependencies += "org.mockito" % "mockito-all" % "1.10.19" % Test
